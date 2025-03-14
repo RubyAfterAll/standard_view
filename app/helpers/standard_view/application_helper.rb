@@ -14,7 +14,7 @@ module StandardView
     end
 
     def active_for(**options)
-      "active" if on_page?(options)
+      "active" if on_page?(**options)
     end
 
     def on_page?(check_parameters: false, **options)
