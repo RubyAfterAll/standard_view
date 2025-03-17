@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.23
+
+*Release Date*: 03/17/2024
+
+- FontAwesome update
+
 ## 0.1.22
 
 *Release Date*: 03/17/2024
