@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.20
+
+*Release Date*: 03/17/2024
+
+- Bugfix to security patch (route ordering changed)
+
 ## 0.1.19
 
 *Release Date*: 03/17/2024
