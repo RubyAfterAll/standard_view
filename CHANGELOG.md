@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.19
+
+*Release Date*: 03/17/2024
+
+- Security patch
+
+## 0.1.18
+
+*Release Date*: 03/03/2024
+
+- Bugfix
+
 ## 0.1.17
 
 *Release Date*: 06/09/2021

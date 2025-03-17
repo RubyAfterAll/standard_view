@@ -20,7 +20,7 @@ module StandardView
         record.respond_to?(default_count_method_name) ? default_count_method_name : collection
       end
 
-      link_target = [ collection, record ]
+      link_target = [ collection.to_sym, record.to_sym ]
       link_target.reverse! if nested
 
       active_link_arguments = { controller: (nested ? model : record).model_name.collection }
