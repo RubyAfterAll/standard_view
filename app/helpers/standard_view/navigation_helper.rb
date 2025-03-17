@@ -24,7 +24,7 @@ module StandardView
       link_target.reverse! if nested
 
       active_link_arguments = { controller: (nested ? record : model).model_name.collection }
-      active_link_arguments[:action] = collection unless nested
+      active_link_arguments[:action] = collection if nested
 
       nav_item(
         link_target: link_target,
