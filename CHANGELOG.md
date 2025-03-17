@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.21
+
+*Release Date*: 03/17/2024
+
+- Bugfix around ordering for active class
+
 ## 0.1.20
 
 *Release Date*: 03/17/2024
