@@ -35,6 +35,7 @@
   <% end %>
 
   <%= content_tag :main, id: "#{list.parameterized_title}-index", class: "container" do %>
+    <%= content_for(:preheader) if content_for?(:preheader) %>
     <header>
       <%= render "standard_view/breadcrumbs", material: list if list.parent? %>
 

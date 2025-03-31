@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.24
+
+*Release Date*: 03/30/2024
+
+- Preheader content
+
 ## 0.1.23
 
 *Release Date*: 03/17/2024
