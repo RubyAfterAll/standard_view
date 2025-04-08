@@ -5,11 +5,11 @@
       <h4 class="mb-0"><%= t(".#{actionable_name}.title", title: material.title) %></h4>
     </div>
     <div class="card-body">
-      <% if lookup_context.template_exists?("form_fields", controller_name, true) %>
+      <% if lookup_context.template_exists?("form_fields", controller_path, true) %>
         <%= render "form_fields", form: form %>
       <% end %>
 
-      <% if lookup_context.template_exists?("#{actionable_name}_form_fields", controller_name, true) %>
+      <% if lookup_context.template_exists?("#{actionable_name}_form_fields", controller_path, true) %>
         <%= render "#{actionable_name}_form_fields", form: form %>
       <% end %>
     </div>

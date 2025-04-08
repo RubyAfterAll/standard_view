@@ -4,7 +4,7 @@
     <% if record_from_parent_route.present? && record_from_parent_route.respond_to?(controller_name) %>
       <% collection = record_from_parent_route.public_send(controller_name) %>
     <% end %>
-    <% record = collection.try(:build) || "#{controller_name.singularize.camelize}".constantize.new %>
+    <% record = collection.try(:build) || "#{controller_path.singularize.camelize}".constantize.new %>
   <% end %>
   <% material = Material::Base.for(record) %>
 <% end %>

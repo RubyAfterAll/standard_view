@@ -31,14 +31,15 @@
         <li class="breadcrumb-item"><%= link_to material.breadcrumb_title, material %></li>
       <% end %>
       <li class="breadcrumb-item active" aria-current="page">
+        <% controller_path_i18n = controller_path.gsub('/', '.') %>
         <% if local_assigns[:label].present? %>
           <%= local_assigns[:label] %>
-        <% elsif I18n.exists?("breadcrumbs.#{controller_name}.#{action_name}") %>
-          <%= t("breadcrumbs.#{controller_name}.#{action_name}") %>
+        <% elsif I18n.exists?("breadcrumbs.#{controller_path_i18n}.#{action_name}") %>
+          <%= t("breadcrumbs.#{controller_path_i18n}.#{action_name}") %>
         <% elsif I18n.exists?("breadcrumbs.actions.#{action_name}") %>
           <%= t("breadcrumbs.actions.#{action_name}") %>
-        <% elsif I18n.exists?("breadcrumbs.controllers.#{controller_name}") %>
-          <%= t("breadcrumbs.controllers.#{controller_name}") %>
+        <% elsif I18n.exists?("breadcrumbs.controllers.#{controller_path_i18n}") %>
+          <%= t("breadcrumbs.controllers.#{controller_path_i18n}") %>
         <% else %>
           <%= action_name.humanize %>
         <% end %>

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.25
+
+*Release Date*: 04/08/2024
+
+- Namespace support 
+
 ## 0.1.24
 
 *Release Date*: 03/30/2024
