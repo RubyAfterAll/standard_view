@@ -1,12 +1,12 @@
 # Changelog
 
+## 0.1.26
+
+*Release Date*: 04/09/2024
+
+- i18n fix
+
 ## 0.1.25
-
-*Release Date*: 04/08/2024
-
-- Namespace support 
-
-## 0.1.24
 
 *Release Date*: 03/30/2024
 
