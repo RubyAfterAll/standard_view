@@ -1,5 +1,5 @@
 <% material_law = law(material) %>
-<% form_options = { wrapper: :horizontal_form }
+<% form_options = { wrapper: :horizontal_form } %>
 <% form_options[:url] = content_for(:form_url) if content_for?(:form_url) %>
 <%= simple_form_for (actionable_name == "new" ? [ material.parent, material ] : material), form_options do |form| %>
   <div class="card">
