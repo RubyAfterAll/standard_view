@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.29
+
+*Release Date*: 04/23/2024
+
+- Optional Breadcrumb Content
+
 ## 0.1.28
 
 *Release Date*: 04/23/2024
