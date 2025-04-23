@@ -18,8 +18,8 @@
     <div class="card-footer">
       <div class="row">
         <div class="col-6">
-          <% if content_for?(:seconary_action) %>
-            <%= content_for(:seconary_action) %>
+          <% if content_for?(:secondary_action) %>
+            <%= content_for(:secondary_action) %>
           <% else %>
             <%= link_to_destroy_with_confirmation_for_record(material) if material.persisted? && material_law.destroy? %>
           <% end %>
