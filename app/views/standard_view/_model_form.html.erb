@@ -18,7 +18,11 @@
     <div class="card-footer">
       <div class="row">
         <div class="col-6">
-          <%= link_to_destroy_with_confirmation_for_record(material) if material.persisted? && material_law.destroy? %>
+          <% if content_for?(:seconary_action) %>
+            <%= content_for(:seconary_action) %>
+          <% else %>
+            <%= link_to_destroy_with_confirmation_for_record(material) if material.persisted? && material_law.destroy? %>
+          <% end %>
         </div>
         <div class="col-6 text-right">
           <%= form.button :submit, class: "btn-primary" %>

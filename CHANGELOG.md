@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.30
+
+*Release Date*: 04/23/2024
+
+- Optional Secondary Action 
+
 ## 0.1.29
 
 *Release Date*: 04/23/2024
